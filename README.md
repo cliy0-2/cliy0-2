@@ -1,7 +1,7 @@
 <!-- You opened the source. Good instinct. -->
 
 <p align="center">
-  <img src="assets/banner.svg" alt="cliy0-2 · SOC Analyst" width="100%" />
+  <img src="assets/header.svg" alt="cliy0-2 · SOC Analyst" width="100%" />
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@ This is where I keep my scripts, notes and experiments. Nothing groundbreaking, 
 ### 🔁 Both sides
 
 <p align="center">
-  <img src="assets/two-sides.svg" alt="Every step of an attack leaves a trace on the defense side" width="100%" />
+  <img src="assets/both-sides.svg" alt="Every step of an attack leaves a trace on the defense side" width="100%" />
 </p>
 
 ### 🗂️ Triage notes
