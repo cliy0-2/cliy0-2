@@ -19,6 +19,8 @@ I'm a SOC analyst. In practice, I spend my days reading logs and looking for **t
 
 I'm a bit of a jack-of-all-trades and genuinely nosy: I like taking security mechanisms apart to see how they hold together, and where they give way. I look at both defense *and* offense, because you can't really learn one without the other.
 
+Also, a bit of a nerd. I'm always learning something: a new tool, a new protocol, a new way to break or protect things. And I lean on **AI** a lot to go further and faster, as a sparring partner, not a crutch.
+
 ### 🛡️ What I do
 
 - **Triage & investigation**: turning raw alerts into a clear story: what happened, how far it went, what to do next.
@@ -26,12 +28,15 @@ I'm a bit of a jack-of-all-trades and genuinely nosy: I like taking security mec
 - **Threat hunting**: starting from a hypothesis, not an alert, and digging through endpoint, network and identity data.
 - **Incident response support**: scoping, timelines, containment recommendations, and clean write-ups.
 - **Automation**: Python tooling to enrich alerts, query the SIEM and take the repetitive work off the analysts' plate.
+- **AI-assisted analysis**: using LLMs to speed up triage, summarize investigations and draft detections, always with a human checking the output.
 
 ### 🔬 Research: DRM & content protection
 
 On my own time, I study how **DRM and content protection schemes** actually work: license acquisition flows, key handling, white-box cryptography, and the obfuscation and anti-tamper layers built into client applications.
 
 What draws me in is the same question as in the SOC: *where is trust placed, and what happens when that assumption breaks?* Taking these systems apart is a great way to learn reverse engineering, applied crypto and secure design, all at once.
+
+My workflow is **AI-augmented**: I plug reverse engineering tools into AI agents through **MCP servers** (like [REA](https://github.com/morluto/rea), with Ghidra, IDA and Hopper backends) so the agent can decompile, search strings, trace calls and resolve symbols, while I steer the analysis and verify what it finds.
 
 <sub>Research is done for learning purposes, on my own devices and lawfully obtained content. No piracy, no key sharing.</sub>
 
@@ -50,7 +55,8 @@ What draws me in is the same question as in the SOC: *where is trust placed, and
 | **Network** | Wireshark, Zeek, Suricata, tcpdump |
 | **Endpoint & DFIR** | Sysmon, Velociraptor, Volatility |
 | **Threat intel & case mgmt** | MISP, TheHive, VirusTotal |
-| **Reverse engineering** | Ghidra, Frida, x64dbg, mitmproxy |
+| **Reverse engineering** | Ghidra, IDA, Frida, x64dbg, mitmproxy |
+| **AI & MCP** | Claude, LLM agents, MCP servers (REA, Ghidra / IDA MCP) |
 | **Scripting & infra** | Python, Bash, Docker, Git, Linux |
 
 ### 🗂️ Triage notes
@@ -62,6 +68,8 @@ field:      logs, network, systems, and whatever lurks in between
 defense:    detection, investigation, incident response
 offense:    CTFs, labs, understanding how things break
 research:   DRM internals, license flows, client-side hardening
+tooling:    AI agents + MCP wired into the RE workflow
+mode:       always learning, mildly nerdy, endlessly curious
 currently:  figuring out why the things that work actually work
 ```
 
